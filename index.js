@@ -175,7 +175,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("/history-of-badr-war/Home.html");
+			document.location.replace("https://ninzato.github.io/Home.html");
 			}, 500);
 			
 		}
