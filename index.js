@@ -175,7 +175,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("../Home.html");
+			document.location.replace("./Home.html");
 			}, 500);
 			
 		}
