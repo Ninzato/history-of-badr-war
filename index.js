@@ -27,35 +27,35 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_21 = function() {
+(lib.CachedBmp_3014 = function() {
 	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_20 = function() {
+(lib.CachedBmp_3013 = function() {
 	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_28 = function() {
+(lib.CachedBmp_3015 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_18 = function() {
+(lib.CachedBmp_3011 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_17 = function() {
+(lib.CachedBmp_3010 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -88,13 +88,13 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// flash0_ai
-	this.instance = new lib.CachedBmp_28();
+	this.instance = new lib.CachedBmp_3015();
 	this.instance.setTransform(-300,-104.05,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_20();
+	this.instance_1 = new lib.CachedBmp_3013();
 	this.instance_1.setTransform(-300,-104.05,0.5,0.5);
 
-	this.instance_2 = new lib.CachedBmp_21();
+	this.instance_2 = new lib.CachedBmp_3014();
 	this.instance_2.setTransform(-300,-104.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},48).to({state:[{t:this.instance_2}]},50).wait(1));
@@ -117,10 +117,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_3
-	this.instance = new lib.CachedBmp_17();
+	this.instance = new lib.CachedBmp_3010();
 	this.instance.setTransform(-55,-32.75,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_18();
+	this.instance_1 = new lib.CachedBmp_3011();
 	this.instance_1.setTransform(-62.95,-37.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
@@ -213,12 +213,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/index_atlas_1.png?1655398837765", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png?1655398837765", id:"index_atlas_2"},
-		{src:"sounds/doorsound.mp3?1655398837844", id:"doorsound"},
-		{src:"sounds/opening.mp3?1655398837844", id:"opening"},
-		{src:"sounds/popsound.mp3?1655398837844", id:"popsound"},
-		{src:"sounds/swordsound.mp3?1655398837844", id:"swordsound"}
+		{src:"images/index_atlas_1.png?1655458842825", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png?1655458842826", id:"index_atlas_2"},
+		{src:"sounds/doorsound.mp3?1655458842913", id:"doorsound"},
+		{src:"sounds/opening.mp3?1655458842913", id:"opening"},
+		{src:"sounds/popsound.mp3?1655458842913", id:"popsound"},
+		{src:"sounds/swordsound.mp3?1655458842913", id:"swordsound"}
 	],
 	preloads: []
 };

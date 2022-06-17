@@ -3,7 +3,8 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"CreditMenu_atlas_1", frames: [[859,722,133,102],[859,826,133,102],[0,722,857,164],[0,888,91,87],[0,0,1280,720]]}
+		{name:"CreditMenu_atlas_1", frames: [[0,0,1603,796],[0,798,1280,720]]},
+		{name:"CreditMenu_atlas_2", frames: [[93,722,134,50],[859,688,132,102],[859,556,134,130],[0,0,1038,554],[0,556,857,164],[0,722,91,87]]}
 ];
 
 
@@ -26,37 +27,58 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_1921 = function() {
+(lib.CachedBmp_1519 = function() {
+	this.initialize(ss["CreditMenu_atlas_2"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1518 = function() {
+	this.initialize(ss["CreditMenu_atlas_2"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1517 = function() {
+	this.initialize(ss["CreditMenu_atlas_2"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1516 = function() {
+	this.initialize(ss["CreditMenu_atlas_2"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1515 = function() {
 	this.initialize(ss["CreditMenu_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1920 = function() {
-	this.initialize(ss["CreditMenu_atlas_1"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_1919 = function() {
-	this.initialize(ss["CreditMenu_atlas_1"]);
-	this.gotoAndStop(2);
+(lib.CachedBmp_1514 = function() {
+	this.initialize(ss["CreditMenu_atlas_2"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CompoundPath = function() {
-	this.initialize(ss["CreditMenu_atlas_1"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["CreditMenu_atlas_2"]);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Chap3GeneralScene = function() {
 	this.initialize(ss["CreditMenu_atlas_1"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -73,16 +95,19 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// flash0.ai
-	this.instance = new lib.CachedBmp_1920();
+	this.instance = new lib.CachedBmp_1517();
 	this.instance.setTransform(-33.05,-28.05,0.4875,0.4875);
 
-	this.instance_1 = new lib.CachedBmp_1921();
-	this.instance_1.setTransform(-33.05,-28.15,0.4875,0.4875);
+	this.instance_1 = new lib.CachedBmp_1519();
+	this.instance_1.setTransform(-33,10.75,0.4875,0.4875);
 
-	this.instance_2 = new lib.CompoundPath();
-	this.instance_2.setTransform(-159.75,-154.3,3.5006,3.5006);
+	this.instance_2 = new lib.CachedBmp_1518();
+	this.instance_2.setTransform(-33.05,-28.15,0.4875,0.4875);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_2},{t:this.instance_1}]},1).wait(1));
+	this.instance_3 = new lib.CompoundPath();
+	this.instance_3.setTransform(-159.75,-154.3,3.5004,3.5004);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -120,7 +145,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("https://ninzato.github.io/history-of-badr-war/Home.html");
+			document.location.replace("/Home.html");
 			}, 500);
 		}
 	}
@@ -134,15 +159,21 @@ if (reversed == null) { reversed = false; }
 	this.homeBtn.setTransform(74.95,66,1.0256,1.0256);
 	new cjs.ButtonHelper(this.homeBtn, 0, 1, 1);
 
-	this.instance = new lib.CachedBmp_1919();
+	this.instance = new lib.CachedBmp_1514();
 	this.instance.setTransform(443.85,142.15,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.homeBtn}]}).wait(1));
 
-	// Background
-	this.instance_1 = new lib.Chap3GeneralScene();
+	// flash0_ai
+	this.instance_1 = new lib.CachedBmp_1516();
+	this.instance_1.setTransform(381.1,314.7,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+	this.instance_2 = new lib.CachedBmp_1515();
+	this.instance_2.setTransform(239.4,254.35,0.5,0.5);
+
+	this.instance_3 = new lib.Chap3GeneralScene();
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -157,8 +188,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CreditMenu_atlas_1.png?1655330294044", id:"CreditMenu_atlas_1"},
-		{src:"sounds/popsound.mp3?1655330294059", id:"popsound"}
+		{src:"images/CreditMenu_atlas_1.png", id:"CreditMenu_atlas_1"},
+		{src:"images/CreditMenu_atlas_2.png", id:"CreditMenu_atlas_2"},
+		{src:"sounds/popsound.mp3", id:"popsound"}
 	],
 	preloads: []
 };
