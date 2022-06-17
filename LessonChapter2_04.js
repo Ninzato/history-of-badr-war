@@ -1966,7 +1966,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("/Home.html");
+			document.location.replace("https://ninzato.github.io/history-of-badr-war/Home.html");
 			}, 500);
 		}
 		
@@ -1976,7 +1976,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("/LessonChapter2_05.html");
+			document.location.replace("https://ninzato.github.io/history-of-badr-war/LessonChapter2_05.html");
 			}, 500);
 			
 		}
@@ -1987,7 +1987,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("/LessonChapter2_03.html");
+			document.location.replace("https://ninzato.github.io/history-of-badr-war/LessonChapter2_03.html");
 			}, 500);
 			
 		}

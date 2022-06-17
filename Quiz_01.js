@@ -4025,7 +4025,7 @@ if (reversed == null) { reversed = false; }
 		this.homeBtn.addEventListener("click", fl_ClickToGoToHomePage);
 		function fl_ClickToGoToHomePage() {
 			createjs.Sound.play("popsound");
-			document.location.replace("/Home.html");
+			document.location.replace("https://ninzato.github.io/history-of-badr-war/Home.html");
 		}
 		
 		this.nextBtn.addEventListener("click", f6_ClickToGoToAndStopAtFrame.bind(this));
@@ -4654,7 +4654,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("/QuizMenu.html");
+			document.location.replace("https://ninzato.github.io/history-of-badr-war/QuizMenu.html");
 			}, 500);	
 		}
 	}

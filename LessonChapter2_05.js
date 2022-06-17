@@ -3167,7 +3167,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("/Home.html");
+			document.location.replace("https://ninzato.github.io/history-of-badr-war/Home.html");
 			}, 500);
 		}
 		
@@ -3177,7 +3177,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("/LessonChapter2_06.html");
+			document.location.replace("https://ninzato.github.io/history-of-badr-war/LessonChapter2_06.html");
 			}, 500);
 			
 		}
@@ -3188,7 +3188,7 @@ if (reversed == null) { reversed = false; }
 			createjs.Sound.play("popsound");
 			
 			setTimeout(function(){
-			document.location.replace("/LessonChapter2_04.html");
+			document.location.replace("https://ninzato.github.io/history-of-badr-war/LessonChapter2_04.html");
 			}, 500);
 			
 		}

@@ -41,7 +41,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_3015 = function() {
+(lib.CachedBmp_3016 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -88,7 +88,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// flash0_ai
-	this.instance = new lib.CachedBmp_3015();
+	this.instance = new lib.CachedBmp_3016();
 	this.instance.setTransform(-300,-104.05,0.5,0.5);
 
 	this.instance_1 = new lib.CachedBmp_3013();
@@ -213,12 +213,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/index_atlas_1.png?1655458842825", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png?1655458842826", id:"index_atlas_2"},
-		{src:"sounds/doorsound.mp3?1655458842913", id:"doorsound"},
-		{src:"sounds/opening.mp3?1655458842913", id:"opening"},
-		{src:"sounds/popsound.mp3?1655458842913", id:"popsound"},
-		{src:"sounds/swordsound.mp3?1655458842913", id:"swordsound"}
+		{src:"images/index_atlas_1.png?1655460492888", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png?1655460492889", id:"index_atlas_2"},
+		{src:"sounds/doorsound.mp3?1655460492949", id:"doorsound"},
+		{src:"sounds/opening.mp3?1655460492949", id:"opening"},
+		{src:"sounds/popsound.mp3?1655460492949", id:"popsound"},
+		{src:"sounds/swordsound.mp3?1655460492949", id:"swordsound"}
 	],
 	preloads: []
 };
